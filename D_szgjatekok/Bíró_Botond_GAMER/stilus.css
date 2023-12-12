@@ -1,0 +1,28 @@
+img{
+    width: 200px;
+    height: auto;
+}
+header{
+    grid-area: h;
+}
+nav{
+    grid-area: n;
+}
+main{
+    grid-area: m;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+footer{
+    grid-area: f;
+}
+
+#fotartalom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    'h h h'
+    'n n n'
+    'm m m'
+    'f f f';
+}
